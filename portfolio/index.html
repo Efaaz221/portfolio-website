@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full z-10">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Efaaz</h1>
+      <div class="space-x-4">
+        <a href="#home" class="hover:text-blue-600">Home</a>
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#projects" class="hover:text-blue-600">Projects</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="pt-20 min-h-screen flex flex-col items-center justify-center text-center bg-blue-600 text-white px-4">
+    <img src="C:\Users\hpvic\OneDrive\Desktop\website\WhatsApp Image 2025-07-15 at 21.16.42_e8684b3e.jpg" alt="Profile Photo" class="rounded-full w-36 mb-6">
+    <h2 class="text-4xl md:text-5xl font-bold mb-2">Hi, I'm Efaaz</h2>
+    <p class="text-xl mb-2">Web and App Developer</p>
+    <p class="italic text-lg">"First, solve the problem. Then, write the code.💻"</p>
+    <a href="C:\Users\hpvic\OneDrive\Desktop\website\Resume.pdf" download class="mt-6 px-6 py-2 bg-white text-blue-600 font-semibold rounded hover:bg-gray-100 transition">Download Resume</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-6 bg-white">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">About Me</h2>
+      <p class="mb-6 text-lg leading-relaxed">
+        I'm a passionate frontend developer with a strong interest in building responsive and user-friendly websites. I love solving problems through code and constantly learning new tools and technologies.
+      </p>
+      <p class="mb-6 text-lg leading-relaxed">
+        My goal is to become a full-stack developer and contribute to real-world applications that make a difference.
+      </p>
+
+      <!-- Skills -->
+      <div class="mb-8">
+        <h3 class="text-2xl font-semibold mb-4">Skills</h3>
+        <div class="flex flex-wrap gap-4">
+          <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">HTML</span>
+          <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">C</span>
+          <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Java</span>
+          <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">C++</span>
+          <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">C#</span>
+          <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">XML</span>
+          <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Tailwind CSS</span>
+        </div>
+      </div>
+
+      <!-- Timeline -->
+      <div>
+        <h3 class="text-2xl font-semibold mb-4">Education & Experience</h3>
+        <div class="space-y-4">
+          <div class="bg-gray-100 p-4 rounded-lg">
+            <h4 class="font-semibold">Bachelor of Computer Application – United Institute of Management(FUGS)</h4>
+            <p>2023 - 2026</p>
+          </div>
+          <div class="bg-gray-100 p-4 rounded-lg">
+            <h4 class="font-semibold">Frontend Intern – MNNIT, Prayagraj</h4>
+            <p>Summer 2025</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 px-6 bg-gray-100">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-10 text-center">Projects</h2>
+      <div class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Project 1 -->
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <img src="C:\Users\hpvic\OneDrive\Desktop\website\WhatsApp Image 2025-07-15 at 22.28.44_c4830873.jpg" class="rounded mb-4" alt="Project 1">
+          <h3 class="text-xl font-semibold mb-2">Portfolio Website</h3>
+          <p class="text-gray-600 mb-2">A personal portfolio built using HTML and Tailwind CSS.</p>
+          <a href="https://github.com/mohdefaaz/portfolio-website" class="text-blue-600 hover:underline">GitHub Repo</a>
+        </div>
+        <!-- Project 2 -->
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <img src="C:\Users\hpvic\OneDrive\Desktop\website\WhatsApp Image 2025-07-15 at 22.28.43_f0dfca70.jpg" class="rounded mb-4" alt="Project 2">
+          <h3 class="text-xl font-semibold mb-2">To-Do App</h3>
+          <p class="text-gray-600 mb-2">A simple task manager using HTML, CSS & JS.</p>
+          <a href="https://github.com/mohdefaaz/taskmanager" class="text-blue-600 hover:underline">GitHub Repo</a>
+        </div>
+        <!-- Project 3 -->
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <img src="C:\Users\hpvic\OneDrive\Desktop\website\WhatsApp Image 2025-07-15 at 22.28.18_9053f2bd.jpg" class="rounded mb-4" alt="Project 3">
+          <h3 class="text-xl font-semibold mb-2">Blog Page</h3>
+          <p class="text-gray-600 mb-2">A responsive blog layout with Tailwind CSS.</p>
+          <a href="https://github.com/mohdefaaz/blog-page" class="text-blue-600 hover:underline">GitHub Repo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-6 bg-white">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+      <form class="space-y-6">
+        <input type="text" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded" required>
+        <input type="email" placeholder="Your Email" class="w-full p-3 border border-gray-300 rounded" required>
+        <textarea rows="5" placeholder="Your Message" class="w-full p-3 border border-gray-300 rounded" required></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>© 2025 Efaaz. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
